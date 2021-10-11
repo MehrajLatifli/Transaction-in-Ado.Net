@@ -1,0 +1,15 @@
+G:\Step\Ev tapşırıqları\3 -cü yarım il\ADO.NET\Ev tapşırıqları\Hazırlanan ev tapşırıqları\2\Transaction in Ado.Net\Transaction in Ado.Net\obj\Debug\MainWindow.g.cs
+G:\Step\Ev tapşırıqları\3 -cü yarım il\ADO.NET\Ev tapşırıqları\Hazırlanan ev tapşırıqları\2\Transaction in Ado.Net\Transaction in Ado.Net\obj\Debug\App.g.cs
+G:\Step\Ev tapşırıqları\3 -cü yarım il\ADO.NET\Ev tapşırıqları\Hazırlanan ev tapşırıqları\2\Transaction in Ado.Net\Transaction in Ado.Net\obj\Debug\Transaction in Ado.Net_MarkupCompile.cache
+G:\Step\Ev tapşırıqları\3 -cü yarım il\ADO.NET\Ev tapşırıqları\Hazırlanan ev tapşırıqları\2\Transaction in Ado.Net\Transaction in Ado.Net\obj\Debug\Transaction in Ado.Net_MarkupCompile.lref
+G:\Step\Ev tapşırıqları\3 -cü yarım il\ADO.NET\Ev tapşırıqları\Hazırlanan ev tapşırıqları\2\Transaction in Ado.Net\Transaction in Ado.Net\bin\Debug\Transaction in Ado.Net.exe.config
+G:\Step\Ev tapşırıqları\3 -cü yarım il\ADO.NET\Ev tapşırıqları\Hazırlanan ev tapşırıqları\2\Transaction in Ado.Net\Transaction in Ado.Net\bin\Debug\Transaction in Ado.Net.exe
+G:\Step\Ev tapşırıqları\3 -cü yarım il\ADO.NET\Ev tapşırıqları\Hazırlanan ev tapşırıqları\2\Transaction in Ado.Net\Transaction in Ado.Net\bin\Debug\Transaction in Ado.Net.pdb
+G:\Step\Ev tapşırıqları\3 -cü yarım il\ADO.NET\Ev tapşırıqları\Hazırlanan ev tapşırıqları\2\Transaction in Ado.Net\Transaction in Ado.Net\obj\Debug\MainWindow.baml
+G:\Step\Ev tapşırıqları\3 -cü yarım il\ADO.NET\Ev tapşırıqları\Hazırlanan ev tapşırıqları\2\Transaction in Ado.Net\Transaction in Ado.Net\obj\Debug\Transaction in Ado.Net.g.resources
+G:\Step\Ev tapşırıqları\3 -cü yarım il\ADO.NET\Ev tapşırıqları\Hazırlanan ev tapşırıqları\2\Transaction in Ado.Net\Transaction in Ado.Net\obj\Debug\Transaction_in_Ado.Net.Properties.Resources.resources
+G:\Step\Ev tapşırıqları\3 -cü yarım il\ADO.NET\Ev tapşırıqları\Hazırlanan ev tapşırıqları\2\Transaction in Ado.Net\Transaction in Ado.Net\obj\Debug\Transaction in Ado.Net.csproj.GenerateResource.cache
+G:\Step\Ev tapşırıqları\3 -cü yarım il\ADO.NET\Ev tapşırıqları\Hazırlanan ev tapşırıqları\2\Transaction in Ado.Net\Transaction in Ado.Net\obj\Debug\Transaction in Ado.Net.csproj.CoreCompileInputs.cache
+G:\Step\Ev tapşırıqları\3 -cü yarım il\ADO.NET\Ev tapşırıqları\Hazırlanan ev tapşırıqları\2\Transaction in Ado.Net\Transaction in Ado.Net\obj\Debug\Transaction in Ado.Net.exe
+G:\Step\Ev tapşırıqları\3 -cü yarım il\ADO.NET\Ev tapşırıqları\Hazırlanan ev tapşırıqları\2\Transaction in Ado.Net\Transaction in Ado.Net\obj\Debug\Transaction in Ado.Net.pdb
+G:\Step\Ev tapşırıqları\3 -cü yarım il\ADO.NET\Ev tapşırıqları\Hazırlanan ev tapşırıqları\2\Transaction in Ado.Net\Transaction in Ado.Net\obj\Debug\Transaction in Ado.Net.csproj.AssemblyReference.cache

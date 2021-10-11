@@ -1,0 +1,97 @@
+﻿<Window x:Class="Transaction_in_Ado.Net.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Transaction_in_Ado.Net"
+        mc:Ignorable="d"
+        Title="MainWindow" MinHeight="600" MinWidth="800" MaxHeight="600" MaxWidth="1000" Loaded="Window_Loaded" Icon="logo.png">
+    <Grid>
+        <DockPanel Background="Bisque">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="10*"></RowDefinition>
+                    <RowDefinition Height="10*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="6*"></RowDefinition>
+                        <RowDefinition Height="6*"></RowDefinition>
+                        <RowDefinition Height="6*"></RowDefinition>
+                        <RowDefinition Height="6*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <TextBox x:Name="firstNametxtbox" Grid.Row="0" Margin="10,10,10,10" FontSize="30">
+                        <TextBox.ToolTip>
+                            <Border Height="25" Width="150" Background="SkyBlue" BorderBrush="SkyBlue">
+                                <TextBlock Text="Enter Firstname:" FontWeight="Black" Padding="5,5,2,5"></TextBlock>
+                            </Border>
+                        </TextBox.ToolTip>
+                    </TextBox>
+                    <TextBox x:Name="passwordtxtbox"  Grid.Row="1" Margin="10,10,10,10" FontSize="30">
+                        <TextBox.ToolTip>
+                            <Border Height="25" Width="150" Background="SkyBlue" BorderBrush="SkyBlue">
+                                <TextBlock Text="Enter Password:" FontWeight="Black" Padding="5,5,2,5"></TextBlock>
+                            </Border>
+                        </TextBox.ToolTip>
+                    </TextBox>
+                    <Grid Grid.Row="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="10*"></ColumnDefinition>
+                            <ColumnDefinition Width="2*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Button x:Name="singInButton" Grid.Column="0" Content="Sing In" FontSize="20" FontWeight="Black" Padding="2,2,2,2" Margin="10,10,10,10" Background="SkyBlue" Click="singInButton_Click"></Button>
+                        <ComboBox x:Name="selectCombokBox" Grid.Column="1" Padding="5,5,5,5" Margin="10,10,10,10" FontSize="20" Background="SkyBlue">
+                            <ComboBox.ToolTip>
+                                <Border Height="25" Width="150" Background="SkyBlue" BorderBrush="SkyBlue">
+                                    <TextBlock Text="Select position:" FontWeight="Black" Padding="5,5,2,5"></TextBlock>
+                                </Border>
+                            </ComboBox.ToolTip>
+                        </ComboBox>
+                    </Grid>
+                    <Grid Grid.Row="3">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*"></ColumnDefinition>
+                            <ColumnDefinition Width="1*"></ColumnDefinition>
+                            <ColumnDefinition Width="1*"></ColumnDefinition>
+                            <ColumnDefinition Width="1*"></ColumnDefinition>
+                            <ColumnDefinition Width="1*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <TextBox x:Name="bookIdtxtbox"  Grid.Column="0" Margin="10,10,10,10" FontSize="30" TextChanged="bookIdtxtbox_TextChanged">
+                            <TextBox.ToolTip>
+                                <Border Height="25" Width="250" Background="SkyBlue" BorderBrush="SkyBlue">
+                                    <TextBlock Text="Enter BookId:" FontWeight="Black" Padding="5,5,2,5"></TextBlock>
+                                </Border>
+                            </TextBox.ToolTip>
+                        </TextBox>
+                        <TextBox x:Name="dateouttxtbox"  Grid.Column="1" Margin="10,10,10,10" FontSize="30" TextChanged="dateouttxtbox_TextChanged">
+                            <TextBox.ToolTip>
+                                <Border Height="25" Width="250" Background="SkyBlue" BorderBrush="SkyBlue">
+                                    <TextBlock Text="Enter DateOut (dd/mm/yyyy):" FontWeight="Black" Padding="5,5,2,5"></TextBlock>
+                                </Border>
+                            </TextBox.ToolTip>
+                        </TextBox>
+                        <TextBox x:Name="dateintxtbox"  Grid.Column="2" Margin="10,10,10,10" FontSize="30" TextChanged="dateintxtbox_TextChanged">
+                            <TextBox.ToolTip>
+                                <Border Height="25" Width="250" Background="SkyBlue" BorderBrush="SkyBlue">
+                                    <TextBlock Text="Enter DateIn (dd/mm/yyyy):" FontWeight="Black" Padding="5,5,2,5"></TextBlock>
+                                </Border>
+                            </TextBox.ToolTip>
+                        </TextBox>
+                        <ComboBox x:Name="libscombobox"  Grid.Column="3" Margin="10,10,10,10" FontSize="30">
+                            <ComboBox.ToolTip>
+                                <Border Height="25" Width="250" Background="SkyBlue" BorderBrush="SkyBlue">
+                                    <TextBlock Text="Select Libs:" FontWeight="Black" Padding="5,5,2,5"></TextBlock>
+                                </Border>
+                            </ComboBox.ToolTip>
+                        </ComboBox>
+                        <Button x:Name="takeButton" Grid.Column="4" Content="Take" FontSize="20" FontWeight="Black" Padding="2,2,2,2" Margin="10,10,10,10" Background="SkyBlue" Click="takeButton_Click"></Button>
+                    </Grid>
+                </Grid>
+                <Grid x:Name="viewgrid" Grid.Row="1">
+                    <DataGrid x:Name="cardsDatagrid" Background="White"  IsReadOnly="True"  Width="750" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto" Visibility="Hidden"></DataGrid>
+                    <Image x:Name="coverImage" Source="logo.png"></Image>
+                </Grid>
+            </Grid>
+        </DockPanel>
+    </Grid>
+</Window>
